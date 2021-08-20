@@ -1,7 +1,7 @@
-const Computer = artifacts.require('Computer');
+const MyLittleComputer = artifacts.require('MyLittleComputer');
 
 module.exports = function(deployer) {
-  deployer.deploy(Computer).then(() => {
-    console.log('Computer is deployed.');
+  deployer.deploy(MyLittleComputer).then(() => {
+    console.log('MyLittleComputer is deployed.');
   });
 };
