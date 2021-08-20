@@ -58,7 +58,7 @@ contract MyLittleComputer is ERC721Enumerable, Ownable, ERC721Burnable, ERC721Pa
         uint id = _totalSupply();
         _tokenIdTracker.increment();
         _safeMint(_to, id);
-        emit CreatePenguin(id);
+        emit CreateComputer(id);
     }
     function price(uint256 _count) public pure returns (uint256) {
         return PRICE.mul(_count);
