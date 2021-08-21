@@ -43,8 +43,8 @@ module.exports = {
     rinkeby: {
       provider: () => new HDWalletProvider(MNEMONIC, `https://rinkeby.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161`),
       network_id: 4,       // Rinkeby's id
-      gas: 8500000,        
-      gasPrice: 1000000000,  // 1 gwei (in wei) (default: 100 gwei)
+      // gas: 8500000,        
+      // gasPrice: 1000000000,  // 1 gwei (in wei) (default: 100 gwei)
       confirmations: 2,    // # of confs to wait between deployments. (default: 0)
       timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
       skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
