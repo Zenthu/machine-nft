@@ -18,8 +18,8 @@ contract MyLittleComputer is ERC721Enumerable, Ownable, ERC721Burnable, ERC721Pa
     uint256 public constant PRICE = 5 * 10**16;
     uint256 public constant MAX_BY_MINT = 20;
     uint256 public constant MAX_BY_OWNER = 20;
-    address public constant creatorAddress = 0x8A1eAA7f43D44D06ac1b7677FD6B979538EBc652; // TODO: update
-    address public constant devAddress = 0x8A1eAA7f43D44D06ac1b7677FD6B979538EBc652; // TODO: update
+    address public constant creatorAddress = 0x4B3aacFd767D7F030984E4cD4261927De5c0bcF6; // TODO: update
+    address public constant devAddress = 0x4B3aacFd767D7F030984E4cD4261927De5c0bcF6; // TODO: update
     string public baseTokenURI;
 
     event CreateComputer(uint256 indexed id);
