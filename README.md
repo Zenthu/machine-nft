@@ -14,7 +14,7 @@ Open [https://forum.openzeppelin.com/t/create-an-nft-and-deploy-to-a-public-test
 ## After install truffle, deploy on Mainnet
 
 ```bash
-truffle deploy little-computer --network mainnet
+truffle deploy MyLittleComputer --network mainNet
 #and 
-truffle run verify little-computer --network mainnet
+truffle run verify MyLittleComputer --network mainNet
 ```
